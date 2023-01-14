@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans&family=Poppins:wght@500&display=swap");
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 /*-------------header------------*/
 .header {
@@ -128,15 +130,17 @@ main {
 }
 .feature-img {
   width: 300px;
-  margin: 40px 0;
+  margin: 10px 0;
 }
 .feature-title {
   font-weight: 700;
   font-size: 25px;
+  margin: 10px 0;
 }
 .ft-info {
   font-weight: 700;
   font-size: 16px;
+  margin-bottom: 15px;
 }
 .btn {
   width: 155px;
@@ -196,21 +200,32 @@ main {
   }
   .company-brand {
     flex-wrap: wrap;
+    padding: 0 80px;
+    border: 0;
   }
   .container {
     padding: 0 40px;
   }
+  .collection-title {
+    padding-left: 30px;
+  }
   .popular-collection {
     grid-template-columns: repeat(1, 1fr);
+    padding: 18px;
   }
   .feature-container {
     flex-direction: column;
+    gap: 5px;
     align-items: center;
+    padding: 0 120px;
+  }
+  .footer {
+    width: 100%;
   }
 }
 
 /*--------medium device--------*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) and (min-width: 577px) {
   .banner {
     flex-direction: column-reverse;
     align-items: center;
