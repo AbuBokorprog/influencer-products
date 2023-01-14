@@ -2,6 +2,7 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+/*-------------header------------*/
 .header {
   background-color: white;
 }
@@ -27,3 +28,64 @@ li {
   list-style: none;
   margin-left: 40px;
 }
+/*----------banner------------*/
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 50px 0 100px;
+}
+.banner-details {
+  width: 580px;
+  height: 270px;
+}
+.bn-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+.bn-details {
+  font-weight: 600;
+  font-size: 16px;
+}
+.btn-primary {
+  width: 196px;
+  height: 44px;
+  border: 0;
+  background: #e02c6d;
+  border-radius: 41px;
+}
+.banner-image {
+  border-radius: 100%;
+  box-shadow: 1px 1px 0px 3px whitesmoke;
+}
+/*------small device---------*/
+@media only screen and (max-width: 576px) {
+  .header {
+  }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+  ul,
+  li {
+    margin: 5px;
+    margin-right: 4px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .banner-details {
+    width: 400px;
+    text-align: center;
+  }
+  .bn-title {
+    font-size: 35px;
+  }
+}
+
+/*--------medium device--------*/
+
+/*--------big device----------*/
