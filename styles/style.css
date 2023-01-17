@@ -5,7 +5,7 @@
   padding: 0;
 }
 /*-------------header------------*/
-.header {
+/*.header {
   background-color: white;
 }
 .navbar {
@@ -29,7 +29,7 @@ ul,
 li {
   list-style: none;
   margin-left: 40px;
-}
+}*/
 main {
 }
 /*----------banner------------*/
@@ -76,7 +76,6 @@ main {
   border-radius: 50px;
 }
 /*collection*/
-
 .container {
   padding: 0 100px 0 130px;
 }
